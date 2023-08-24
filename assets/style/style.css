@@ -1,4 +1,61 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.tarjeta_presentacion{
+    justify-items: center;
+    
+    
+    
+    
+}
+.datos_personales{
+    justify-content: space-around;
+    
+    
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    
+}
+.dropdown-menu{
+    width: 100vw; 
+}
+.portfolio{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 700px;
+}
+.portfolio .card{
+   
+    
+    object-fit: cover;
+    opacity: .8;
+    margin-top: 10px;
+    width: 180px;
+    height: 180px;
+    background-color: #f1f1f1;
+    transition: transform 0.3s ease;
+    
+}
+
+.portfolio .card:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    transform: scale(1.15);
+}
+
+.portfolio .card img{
+    width: auto;
+    height: 300px;
+}
+   
+    
+    

@@ -6,23 +6,18 @@
 
 nav{
     background-color: #b5b5b5;
-    
+    color: white;
+    text-shadow: 1.5px 1.5px black;
 }
 
-.tarjeta_presentacion{
-    
+.tarjeta_presentacion{ 
     background-image: url(../imgs/bg\ img\ presentacion.jpg);
     background-size: cover;
-    
-    
-    
-    
 }
 .datos_personales{
     justify-content: space-around;
     color: white;
-    text-shadow: 1.5px 1.5px black
-    
+    text-shadow: 1.5px 1.5px black;  
 }
 
 .iconos{
@@ -32,22 +27,20 @@ nav{
 }
 .dropdown-menu{
     width: 100vw; 
+    background-color: #bab9b9;
 }
 
 .portfolio .card{
-   
-
-    
     margin-top: 10px;
     align-content: center;
     margin: 15px;
-    
-    
 }
 
-.portfolio img{
-    
+
+.portfolio img{ 
     height: 300px;
+    
+    
 }
 .row{
     justify-content: center;
